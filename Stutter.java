@@ -12,14 +12,13 @@ public class Stutter{
         q.add(3);
 
         System.out.println("");
-        System.out.println("Queue 'q' before stutter() is (front <- " + q.toString() + " <- back)"); // [front <- 1, 2, 3 <- back]
+        System.out.println("Queue 'q' before stutter() is: (front <- " + q.toString() + " <- back)"); // [front <- 1, 2, 3 <- back]
         System.out.println("");
         
         Queue<Integer> stuttered = new LinkedList<Integer>(stutter(q));
         System.out.println("");
-        System.out.println("Queue 'q' after stutter() is (front <- " + stuttered.toString() + " <-back)");
-        System.out.println("");
-        
+        System.out.println("Queue 'q' after stutter() is: (front <- " + stuttered.toString() + " <-back)");
+        System.out.println("");       
 
     }
 
